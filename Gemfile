@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.3.1'
 #ruby-gemset=railstutorial_rails_4_0
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -9,12 +9,12 @@ group :development do
 	gem 'sqlite3'
 end
 
-gem 'sass-rails'
-gem 'uglifier'
-gem 'coffee-rails'
+gem 'sass-rails', '~> 5.0'
+gem 'uglifier', '>= 1.3.0'
+gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
-gem 'jbuilder'
+gem 'jbuilder', '~> 2.0'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
